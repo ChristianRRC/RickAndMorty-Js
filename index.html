@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <script src="./js/app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/styles.css" />
+  </head>
+  <body>
+    <img
+      class="logo"
+      src="./static/imagenes/logo@2x.png"
+      width="280"
+      alt=""
+      srcset=""
+    />
+    <div id="character-container"></div>
+    <aside class="navigation">
+      <span>about</span>
+      <span>name</span>
+      <span class="asset">
+        <span class="line"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </span>
+    </aside>
+    <div class="wrapper">
+      <article class="character">
+        <div class="character-grid">
+          <img
+            class="character-image"
+            src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+            alt=""
+          />
+          <h2 class="character-name">Pepito clavo un clavitoo</h2>
+          <div class="character-labels">
+            <h3 class="character-label">Genero: ddsdf</h3>
+            <h3 class="character-label">Especie: fsdf</h3>
+            <h3 class="character-label">Status: sdf</h3>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <script type="module" src="./static/js/app.js"></script>
+  </body>
 </html>
