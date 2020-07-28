@@ -7,41 +7,74 @@
     <link rel="stylesheet" href="./static/css/styles.css" />
   </head>
   <body>
-    <img
-      class="logo"
-      src="./static/imagenes/logo@2x.png"
-      width="280"
-      alt=""
-      srcset=""
-    />
-    <div id="character-container"></div>
-    <aside class="navigation">
-      <span>about</span>
-      <span>name</span>
-      <span class="asset">
+    <div class="grid">
+      <span class="asset top">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="line"></span>
+      </span>
+      <img
+        class="logo"
+        src="./static/imagenes/logo@2x.png"
+        width="280"
+        alt=""
+        srcset=""
+      />
+      <div class="social">
+        <a href="">
+          <img src="./static/imagenes/instagram.svg" alt="" />
+        </a>
+        <a href="">
+          <img src="./static/imagenes/facebook.svg" alt="" />
+        </a>
+        <a href="">
+          <img src="./static/imagenes/twitter.svg" alt="" />
+        </a>
+      </div>
+      <div class="navigation name">
+        <a href="#">Name</a>
+      </div>
+      <div id="character-name-container" class="character-name-container">
+        <div class="character-name">
+          <h2>Rick Sanchez</h2>
+        </div>
+      </div>
+      <div id="character-image-container" class="character-image-container">
+        <img
+          class="character-image"
+          src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+          alt=""
+        />
+      </div>
+      <div class="navigation about">
+        <a href="#">About</a>
+      </div>
+      <div class="character-description-container">
+        <div class="character-labels">
+          <h3 class="character-label">Genero: ddsdf</h3>
+          <h3 class="character-label">Especie: fsdf</h3>
+          <h3 class="character-label">Status: sdf</h3>
+        </div>
+      </div>
+      <div class="character-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, velit
+        tenetur sapiente officiis nostrum nihil quis possimus minima consectetur
+        ab mollitia aspernatur reiciendis, vitae porro? Eveniet perferendis
+        nihil rerum sequi!
+      </div>
+
+      <div class="learn-more">
+        <span>Lear More</span>
+      </div>
+      <div class="arrow"></div>
+      <span class="asset bottom">
         <span class="line"></span>
         <span class="dot"></span>
         <span class="dot"></span>
         <span class="dot"></span>
       </span>
-    </aside>
-    <div class="wrapper">
-      <article class="character">
-        <div class="character-grid">
-          <img
-            class="character-image"
-            src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
-            alt=""
-          />
-          <h2 class="character-name">Pepito clavo un clavitoo</h2>
-          <div class="character-labels">
-            <h3 class="character-label">Genero: ddsdf</h3>
-            <h3 class="character-label">Especie: fsdf</h3>
-            <h3 class="character-label">Status: sdf</h3>
-          </div>
-        </div>
-      </article>
-    </div>
+    </div>   
 
     <script type="module" src="./static/js/app.js"></script>
   </body>
